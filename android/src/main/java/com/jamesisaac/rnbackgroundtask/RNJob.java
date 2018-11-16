@@ -37,7 +37,7 @@ public class RNJob extends Job {
 
         PendingIntent pendingIntent = PendingIntent.getBroadcast(context, 0, service, PendingIntent.FLAG_NO_CREATE);
 
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O && pendingIntent == null) {
             context.startForegroundService(service);
         } else {
             context.startService(service);
