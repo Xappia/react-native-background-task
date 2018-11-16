@@ -2,7 +2,7 @@ package com.jamesisaac.rnbackgroundtask;
 
 import android.content.Context;
 import android.content.Intent;
-import android.content.PendingIntent;
+import android.app.PendingIntent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.util.Log;
