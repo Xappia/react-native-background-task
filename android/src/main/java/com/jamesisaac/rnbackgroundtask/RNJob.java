@@ -2,6 +2,7 @@ package com.jamesisaac.rnbackgroundtask;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.PendingIntent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.util.Log;
@@ -33,6 +34,9 @@ public class RNJob extends Job {
         Context context = getContext().getApplicationContext();
         Intent service = new Intent(context, HeadlessTaskService.class);
         service.putExtras(headlessExtras);
+
+        PendingIntent pendingIntent = PendingIntent.getBroadcast(context, 0, service, PendingIntent.FLAG_NO_CREATE);
+
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             context.startForegroundService(service);
         } else {
