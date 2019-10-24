@@ -19,7 +19,7 @@
   "main": "js/index",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jamesisaac/react-native-background-task.git"
+    "url": "https://github.com/vuongductuanktmt/react-native-background-task.git"
   },
   "scripts": {
     "flow": "flow || exit 0",
