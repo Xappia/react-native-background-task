@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.app.PendingIntent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
+import androidx.annotation.Nullable;
 import android.util.Log;
 import com.evernote.android.job.util.support.PersistableBundleCompat;
 import com.evernote.android.job.Job;
