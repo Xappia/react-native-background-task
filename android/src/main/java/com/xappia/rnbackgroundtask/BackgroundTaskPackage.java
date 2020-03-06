@@ -1,4 +1,4 @@
-package com.jamesisaac.rnbackgroundtask;
+package com.xappia.rnbackgroundtask;
 
 import android.app.Application;
 import com.evernote.android.job.JobManager;

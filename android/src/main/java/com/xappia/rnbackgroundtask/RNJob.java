@@ -1,4 +1,4 @@
-package com.jamesisaac.rnbackgroundtask;
+package com.xappia.rnbackgroundtask;
 
 import android.content.Context;
 import android.content.Intent;

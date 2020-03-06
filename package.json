@@ -13,7 +13,7 @@
     "sync"
   ],
   "bugs": {
-    "url": "https://github.com/jamesisaac/react-native-background-task/issues"
+    "url": "https://github.com/xappia/react-native-background-task/issues"
   },
   "license": "MIT",
   "main": "js/index",

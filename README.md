@@ -1,7 +1,7 @@
 # react-native-background-task
 
 [![npm version](https://img.shields.io/npm/v/react-native-background-task.svg)](https://www.npmjs.com/package/react-native-background-task)
-[![license](https://img.shields.io/github/license/jamesisaac/react-native-background-task.svg)](https://opensource.org/licenses/MIT)
+[![license](https://img.shields.io/github/license/xappia/react-native-background-task.svg)](https://opensource.org/licenses/MIT)
 [![npm downloads](https://img.shields.io/npm/dm/react-native-background-task.svg)](https://www.npmjs.com/package/react-native-background-task)
 
 Periodic background tasks for React Native apps, cross-platform (iOS and
